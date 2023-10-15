@@ -1,0 +1,46 @@
+LOGICAL AND
+
+
+&& T T   T
+   T F   F
+   F T   F
+   F F   F
+public class Main
+{
+	public static void main(String[] args) {
+	   
+		System.out.println((10>9)&&(9<10));
+		
+	}
+}
+
+
+
+
+LOGICAL OR
+||  TT  T
+    TF  T
+    FT  T
+    FF  F
+public class Main
+{
+	public static void main(String[] args) {
+	   
+		System.out.println((10<9)||(9>10));
+		
+	}
+}
+
+
+LOGICAL NOT  !
+
+T  F
+F  T
+public class Main
+{
+	public static void main(String[] args) {
+	   
+		System.out.println(!(9>10));
+		
+	}
+}
